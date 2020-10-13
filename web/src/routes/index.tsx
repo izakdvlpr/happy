@@ -4,7 +4,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Landing from '../pages/Landing';
 import OrphanagesMap from '../pages/OrphanagesMap';
 
-function Routes() {
+export default function Routes() {
   return (
     <BrowserRouter>
       <Switch>
@@ -13,6 +13,4 @@ function Routes() {
       </Switch>
     </BrowserRouter>
   )
-}
-
-export default Routes;
+};
