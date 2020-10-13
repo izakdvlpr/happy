@@ -1,6 +1,8 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
 
+import Routes from './routes';
+
 import colors from './styles/colors';
 import GlobalStyles from './styles/global';
 
@@ -9,7 +11,7 @@ export default function App() {
     <ThemeProvider theme={colors}>      
       <GlobalStyles />
       
-      <h1>Hello World!</h1>
+      <Routes />
     </ThemeProvider>
   );
 };
