@@ -13,4 +13,4 @@
 - [x] Upload de imagens
 - [x] Trabalhando com views
 - [x] Lidando com exceções
-- [ ] Validação de dados
+- [x] Validação de dados
