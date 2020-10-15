@@ -15,6 +15,8 @@ export default createGlobalStyle`
   }
   
   body, input, button, textarea {
+    outline: 0;
+    
     font: 600 18px Nunito, sans-serif;
   }
 `;
