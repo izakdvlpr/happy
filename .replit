@@ -1,0 +1,2 @@
+language = "bash"
+run = "cd server && yarn dev"
