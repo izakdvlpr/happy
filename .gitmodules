@@ -1,0 +1,9 @@
+[submodule "web"]
+	path = web
+	url = git@github.com:zevdvlpr/happy.git
+[submodule "backend"]
+	path = server
+	url = git@github.com:zevdvlpr/happy.git
+[submodule "mobile"]
+	path = mobile
+	url = git@github.com:zevdvlpr/happy.git
