@@ -2,6 +2,7 @@
   "compilerOptions": {
     "target": "es2017",                       
     "module": "commonjs",                     
+    "outDir": "./dist",
     "strict": true,                           
     "strictPropertyInitialization": false,    
     "typeRoots": [
