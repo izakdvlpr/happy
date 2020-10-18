@@ -20,7 +20,7 @@ import mapMarkerImg from '../../assets/map-marker.svg';
 import mapIcon from '../../utils/mapIcon';
 
 interface Orphanage {
-  id: 12;
+  id: string;
   name: string;
   latitude: string;
   longitude: string;
