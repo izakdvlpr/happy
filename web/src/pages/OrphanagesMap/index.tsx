@@ -64,7 +64,7 @@ const OrphanagesMap: React.FC = () => {
           <Marker
             key={orphanage.id}
             icon={mapIcon}
-            position={[(orphanage.latitude, orphanage.longitude]}
+            position={[Number(orphanage.latitude), Number(orphanage.longitude)]}
           >
             <ModalPopup>
               {orphanage.name}
