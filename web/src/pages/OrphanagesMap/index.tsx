@@ -22,8 +22,8 @@ import mapIcon from '../../utils/mapIcon';
 interface Orphanage {
   id: string;
   name: string;
-  latitude: string;
-  longitude: string;
+  latitude: number;
+  longitude: number;
 }
 
 const OrphanagesMap: React.FC = () => {
@@ -64,7 +64,7 @@ const OrphanagesMap: React.FC = () => {
           <Marker
             key={orphanage.id}
             icon={mapIcon}
-            position={[Number(orphanage.latitude), Number(orphanage.longitude)]}
+            position={[(orphanage.latitude, orphanage.longitude]}
           >
             <ModalPopup>
               {orphanage.name}
