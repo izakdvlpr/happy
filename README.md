@@ -58,6 +58,6 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 ---
 
-<p align="center">
-  Desenvolvido com 💛 por zevdvlpr
-</p>
+<div align="center">     
+  Desenvolvido com 💛 por <a href="https://zevdvlpr.ml" alt="website">zevdvlpr</a>
+</dov>
