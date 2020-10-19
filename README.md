@@ -7,8 +7,10 @@
   # Happy
   
   <p align="center">
-    <a href="#teddy-bear-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    
+    <a href="#teddy_bear-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
+    <a href="#computer-rodar-o-projeto">Rodar o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
+    <a href="#thumbsup-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
     <a href="#bookmark-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#pencil-licença">Licença</a>
   </p>
@@ -47,6 +49,117 @@ Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 - [Axios](https://github.com/axios/axios)
 - [React Router DOM](https://reacttraining.com/react-router/)
 - [React Navigation](https://reactnavigation.org/)
+
+## :computer: Rodar o Projeto
+
+### Requisitos
+
+- [Node.js](https://nodejs.org/en/)
+- [Yarn](https://classic.yarnpkg.com/)
+- [Expo](https://expo.io/)
+
+```bash
+$ git clone https://github.com/zevdvlpr/happy.git
+$ cd happy
+```
+
+**Siga os passos abaixo**
+
+### Backend
+
+**Configurando o docker**
+
+```bash
+# Fazer o download do postgres
+$ docker pull postgres
+
+# Vamo agora criar o container
+$ docker run --name postbanco -e POSTGRES_PASSWORD=docker -d -p 5432:5432 postgres
+
+# Uma vez criando o container vamos criar a database
+$ docker exec -it postbanco psql -U postgres --password
+$ create database nlw3;
+
+# Para ver se a database foi criada executamos:
+$ \connect nlw3;
+```
+
+**Iniciando a Api**
+
+```bash
+# Começando pela pasta raiz do projeto, vá para a pasta backend
+$ cd server
+
+# Instale as dependências
+$ yarn
+
+# Use o script para executar a migraçãos
+$ yarn typeorm migration:run
+
+# Para terminar, execute o comando para iniciar a api
+$ yarn dev
+
+# Pronto, a api foi iniciada!
+```
+
+### Web
+
+_Obs.: Antes de continuar, certifique-se de ter a API em execução_
+
+```bash
+# Começando na pasta raiz do projeto, vá para a pasta web
+$ cd web
+
+# Instale as dependências
+$ yarn
+
+# Certifique-se de que o arquivo "src/services/api.ts" tenha o IP para sua API
+
+# Inicie o client
+$ yarn start
+```
+### Mobile
+
+_Obs.: Antes de continuar, certifique-se de ter a API em execução_
+
+```bash
+# Começando na pasta raiz do projeto, vá para a pasta móvel
+$ cd mobile
+
+# Certifique-se de que o arquivo "src/services/api.ts" tenha o IP para sua API
+
+# Inicie o Expo e escaneie o código QR com o Aplicativo do Expo Client
+$ yarn start
+```
+
+## :thumbsup: Como contribuir
+
+**Faça um fork deste repositório**
+
+```bash
+# Se você não tiver a CLI do GitHub, use o site para fazer isso.
+
+$ gh repo fork zevdvlpr/happy
+```
+
+**Siga os passos abaixo**
+
+```bash
+# Clone seu fork
+$ git clone your-fork-url
+$ cd happy
+
+# Crie uma branch com seu recurso
+$ git checkout -b my-feature
+
+# Faça o commit com suas mudanças
+$ git commit -m 'feat: My new feature'
+
+# Envie o código para sua branch remota
+$ git push origin my-feature
+```
+
+Depois que sua solicitação pull for aceita, você pode excluir seu branch
 
 ## :bookmark: Layout
 
