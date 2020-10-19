@@ -9,8 +9,8 @@
   <p align="center">
     <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    
-    <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#memo-licença">Licença</a>
+    <a href="#bookmark-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#pencil-licença">Licença</a>
   </p>
   
   Visite orfanatos e mude o dia de muitas crianças.
@@ -36,14 +36,19 @@ Este é um projeto desenvolvido durante a **[Next Level Week](https://nextlevelw
 
 Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-- [TypeScript](https://www.typescriptlang.org/)
 - [Node.js](https://nodejs.org/en/)
-- [Express](https://expressjs.com/pt-br/)
-- [Postgres](https://www.postgresql.org/)
-- [React.js](https://reactjs.org/)
+- [ReactJS](https://reactjs.org/)
+- [React Native](https://reactnative.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
 - [Expo](https://expo.io/)
+- [Express](https://expressjs.com/pt-br/)
+- [TypeORM](https://typeorm.io/#/)
+- [Yup](https://github.com/jquense/yup)
+- [Axios](https://github.com/axios/axios)
+- [React Router DOM](https://reacttraining.com/react-router/)
+- [React Navigation](https://reactnavigation.org/)
 
-## 🔖 Layout
+## :bookmark: Layout
 
 Você pode visualizar o layout do projeto através dos links abaixo:
 
@@ -52,7 +57,7 @@ Você pode visualizar o layout do projeto através dos links abaixo:
 
 Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
 
-## 📝 Licença
+## :pencil: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
