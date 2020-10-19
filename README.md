@@ -7,7 +7,7 @@
   # Happy
   
   <p align="center">
-    <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#teddy-bear-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    
     <a href="#bookmark-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#pencil-licença">Licença</a>
@@ -32,7 +32,7 @@ O Happy é um projeto que visa facilitar visitas aos orfanatos próximos a você
 
 Este é um projeto desenvolvido durante a **[Next Level Week](https://nextlevelweek.com/)**, realizada pela **[@Rocketseat](https://youtube.com/Rocketseat)** durante os dias 12 a 18 de Outubro de 2020.
 
-## 🚀 Tecnologias
+## :rocket: Tecnologias
 
 Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 
