@@ -73,14 +73,14 @@ $ cd happy
 # Fazer o download do postgres
 $ docker pull postgres
 
-# Vamo agora criar o container
+# Crie o container
 $ docker run --name postbanco -e POSTGRES_PASSWORD=docker -d -p 5432:5432 postgres
 
-# Uma vez criando o container vamos criar a database
+# Uma vez criando, execute o comando para criar a database
 $ docker exec -it postbanco psql -U postgres --password
 $ create database nlw3;
 
-# Para ver se a database foi criada executamos:
+# Para ver se a database foi criada executamos
 $ \connect nlw3;
 ```
 
