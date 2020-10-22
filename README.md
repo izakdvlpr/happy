@@ -50,7 +50,7 @@ Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 - [React Router DOM](https://reacttraining.com/react-router/)
 - [React Navigation](https://reactnavigation.org/)
 
-## :computer: Rodar o Projeto
+## ]
 
 ### Requisitos
 
@@ -172,7 +172,7 @@ Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para ace
 
 ## :pencil: Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/zevdvlpr/happy/blob/master/LICENSE) para mais detalhes.
 
 ---
 
