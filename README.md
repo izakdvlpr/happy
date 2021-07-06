@@ -1,181 +1,81 @@
 <div align="center">
-  <img
-    src="./.github/logo.svg"    
-    alt="happy"
-  > 
-  
-  # Happy
-  
-  <p align="center">
-    <a href="#teddy_bear-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
-    <a href="#computer-rodar-o-projeto">Rodar o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
-    <a href="#thumbsup-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
-    <a href="#bookmark-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#pencil-licença">Licença</a>
-  </p>
-  
-  Visite orfanatos e mude o dia de muitas crianças.
-  
-  [![GitHub repo size](https://img.shields.io/github/repo-size/zevdvlpr/happy?color=ffd666&labelColor=000000&logo=github&style=flat-square)]()
-  [![GitHub last commit](https://img.shields.io/github/last-commit/zevdvlpr/happy?color=ffd666&labelColor=000000&logo=github&style=flat-square)](https://github.com/zevdvlpr/happy/commits/master)
-  [![GitHub License](https://img.shields.io/github/license/zevdvlpr/happy?color=ffd666&labelColor=000000&logo=github&label=license&style=flat-square)](https://github.com/zevdvlpr/happy/tree/master/LICENSE)
-  [![GitHub Stargazers](https://img.shields.io/github/stars/zevdvlpr/happy?color=ffd666&labelColor=000000&logo=github&style=flat-square)](https://github.com/zevdvlpr/happy/stargazers)    
-  
-  <br>
-  
-  <img alt="Happy" src=".github/happy.png" width="100%">
+  <img src="/.github/logo.svg" width="200" />    
+  <h1>Happy</h1>  
+  <p>🧸 Visit orphanages and change the day for many children.</p>    
+  <hr />    
+  <p>
+      <a href="https://rocketseat.com/"><img src="https://img.shields.io/badge/type-nlw-purple" alt="Repo Type" /></a>
+      <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/language-typescript-blue" alt="Repo Main Language" /></a>
+      <img src="https://img.shields.io/badge/platform-web-blueviolet" alt="Project Platform" />                
+      <a href="https://github.com/zevdvlpr/happy/tree/main/LICENSE"><img src="https://img.shields.io/github/license/zevdvlpr/happy?color=red&label=license" alt="Repo License" /></a>
+  </p>     
+  <p><a href="https://www.linkedin.com/in/zevdvlpr" target="_blank"><img src="https://img.shields.io/twitter/url?label=Connect%20%40zevdvlpr&logo=linkedin&url=https%3A%2F%2Fwww.twitter.com%2zevdvlpr%2F" alt="Follow" /></a><p>
 </div>
 
+# About
 
-## :teddy_bear: Projeto
+Happy is a project that aims to facilitate visits to orphanages near you.
 
-O Happy é um projeto que visa facilitar visitas aos orfanatos próximos a você 💛
+<img src="/.github/cover.png" width="700" />
 
-Este é um projeto desenvolvido durante a **[Next Level Week](https://nextlevelweek.com/)**, realizada pela **[@Rocketseat](https://youtube.com/Rocketseat)** durante os dias 12 a 18 de Outubro de 2020.
-
-## :rocket: Tecnologias
-
-Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
+# Techs
 
 - [Node.js](https://nodejs.org/en/)
-- [ReactJS](https://reactjs.org/)
-- [React Native](https://reactnative.dev/)
+- [React.js](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Expo](https://expo.io/)
 - [Express](https://expressjs.com/pt-br/)
 - [TypeORM](https://typeorm.io/#/)
-- [Yup](https://github.com/jquense/yup)
-- [Axios](https://github.com/axios/axios)
-- [React Router DOM](https://reacttraining.com/react-router/)
-- [React Navigation](https://reactnavigation.org/)
 
-## ]
+# Requirements
 
-### Requisitos
+- [Git](https://git-scm.com/) installed
+- [Node](https://node.js.org/) installed
+- Npm or [Yarn](https://yarnpkg.com/) installed
 
-- [Node.js](https://nodejs.org/en/)
-- [Yarn](https://classic.yarnpkg.com/)
-- [Expo](https://expo.io/)
+# Usage
 
-```bash
-$ git clone https://github.com/zevdvlpr/happy.git
-$ cd happy
-```
+- Clone this repository: `git clone https://github.com/zevdvlpr/happy`.
 
-**Siga os passos abaixo**
+**Server**
 
-### Backend
+- Enter in directory: `cd server`.
+- For install dependencies with `yarn install` or `npm install`.
+- Rename the `.env.example` file to `.env`.
+- Set the environment variables.
+- Run the migrations with `yarn typeorm migration:run`.
+- Run the project with `yarn dev` or `npm run dev`.
 
-**Configurando o docker**
+**Web**
 
-```bash
-# Fazer o download do postgres
-$ docker pull postgres
+- Enter in directory: `cd web`.
+- For install dependencies with `yarn install` or `npm install`.
+- Rename the `.env.example` file to `.env`.
+- Set the environment variables.
+- Run the project with `yarn start` or `npm start`.
 
-# Crie o container
-$ docker run --name postbanco -e POSTGRES_PASSWORD=docker -d -p 5432:5432 postgres
+# Contribute
 
-# Uma vez criando, execute o comando para criar a database
-$ docker exec -it postbanco psql -U postgres --password
-$ create database nlw3;
+- Fork the project.
+- Create a new branch with your changes: `git checkout -b my-feature`.
+- Save your changes and create a commit message telling you what you did: `git commit -m "feature: My new feature"`
+- Submit your changes: `git push origin my-feature`.
 
-# Para ver se a database foi criada executamos
-$ \connect nlw3;
-```
+# Authors
 
-**Iniciando a Api**
+- [zevdvlpr](https://github.com/zevdvlpr)
 
-```bash
-# Começando pela pasta raiz do projeto, vá para a pasta backend
-$ cd server
+# Credits 
 
-# Instale as dependências
-$ yarn
+- [Rocketseat](https://youtube.com/rocketseat)
 
-# Use o script para executar a migraçãos
-$ yarn typeorm migration:run
+<br>
+<br>
+<br>
+<br>
 
-# Para terminar, execute o comando para iniciar a api
-$ yarn dev
-
-# Pronto, a api foi iniciada!
-```
-
-### Web
-
-_Obs.: Antes de continuar, certifique-se de ter a API em execução_
-
-```bash
-# Começando na pasta raiz do projeto, vá para a pasta web
-$ cd web
-
-# Instale as dependências
-$ yarn
-
-# Certifique-se de que o arquivo "src/services/api.ts" tenha o IP para sua API
-
-# Inicie o client
-$ yarn start
-```
-### Mobile
-
-_Obs.: Antes de continuar, certifique-se de ter a API em execução_
-
-```bash
-# Começando na pasta raiz do projeto, vá para a pasta móvel
-$ cd mobile
-
-# Certifique-se de que o arquivo "src/services/api.ts" tenha o IP para sua API
-
-# Inicie o Expo e escaneie o código QR com o Aplicativo do Expo Client
-$ yarn start
-```
-
-## :thumbsup: Como contribuir
-
-**Faça um fork deste repositório**
-
-```bash
-# Se você não tiver a CLI do GitHub, use o site para fazer isso.
-
-$ gh repo fork zevdvlpr/happy
-```
-
-**Siga os passos abaixo**
-
-```bash
-# Clone seu fork
-$ git clone your-fork-url
-$ cd happy
-
-# Crie uma branch com seu recurso
-$ git checkout -b my-feature
-
-# Faça o commit com suas mudanças
-$ git commit -m 'feat: My new feature'
-
-# Envie o código para sua branch remota
-$ git push origin my-feature
-```
-
-Depois que sua solicitação pull for aceita, você pode excluir seu branch
-
-## :bookmark: Layout
-
-Você pode visualizar o layout do projeto através dos links abaixo:
-
-- [Layout Web](https://www.figma.com/file/mDEbnoojksG4w8sOxmudh3/Happy-Web?node-id=0%3A1) 
-- [Layout Mobile](https://www.figma.com/file/X27FfVxAgy9f5IFa7ONlph/Happy-Mobile?node-id=0%3A1) 
-
-Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
-
-## :pencil: Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/zevdvlpr/happy/blob/master/LICENSE) para mais detalhes.
-
----
-
-<div align="center">     
-  Desenvolvido com 💛 por <a href="https://zevdvlpr.ml" alt="website">zevdvlpr</a>
-</dov>
+<div align="center">
+  <h1>Open Source</h1>
+  <sub>Copyright © 2020-present, zevdvlpr.</sub>
+  <p>Happy <a href="https://github.com/zevdvlpr/happy/tree/main/LICENSE">is MIT licensed 💖</a></p>
+  <img src="/.github/logo.svg" width="60" />
+</div>
